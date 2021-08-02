@@ -1,0 +1,188 @@
+#main {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, rgb(31, 162, 255), rgb(18, 216, 250), rgb(166, 255, 203));
+}
+
+/* form begin  */
+#form-begin {
+    width: 100%;
+    height: 100%;  
+}
+.heading-begin {
+    font-size: 1.8rem;
+    margin: 10px;
+}
+
+.modal-begin {
+    
+}
+
+.begin-child {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+#begin-text {
+    width: 86%;
+}
+#begin-btn {
+    cursor: pointer;
+    background: blueviolet;
+    border: none;
+    
+}
+#begin-btn:hover {
+    background-color: #00ff00;
+}
+/* general */
+#form {
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    
+}
+
+
+
+/* modal general  */
+ .modal {
+    box-shadow:
+    0px 0px 3px #dddd     
+  ; 
+    min-height: 80px;
+    max-height: 500px;
+    min-width: 300px;
+    max-width: 450px;
+    margin: 100px auto;
+    
+    background:  var(--white-color);
+    border-radius: 5px;
+    margin: auto;
+} 
+.head {
+    
+    text-align: center;
+}
+.heading {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+#text-name {
+    display: flex;
+    font-size: 1.4rem;
+    margin-bottom: 6px;
+}
+
+#name {
+    cursor: pointer;
+    display: flex;
+}
+
+#icon-change-name {
+    display: none;
+    margin-top: 2px;
+    margin-left: 4px;
+    font-size: 1.2rem;
+}
+
+#name:hover  #icon-change-name {
+    display: block;
+}
+
+.modal__main {
+    margin: 20px;
+    /* opacity: 0; */
+    
+}
+.group-input {
+    display: flex;
+    width: 100%;
+    font-size: 1.6rem;
+}
+#input-text {
+    width: 100%;
+    margin-right: 4px;
+    cursor: pointer; 
+}
+
+#input-btn {
+    cursor: pointer;
+    background: blueviolet;
+    border: none;
+    border-radius: 1px;
+}
+
+#input-btn:hover {
+    background-color:#00ff00;
+}
+
+
+#group-task {
+    width: 100%;
+    padding: 0;
+    max-height: 300px;
+    overflow: scroll;
+}
+.task {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.task:hover {
+    background-color: rgb(204, 255, 255);
+}
+
+.task-text {
+    margin: 4px 0px 4px 4px;
+    font-size: 1.4rem;
+}
+
+.task-btn {
+    margin: 0px;
+    cursor: pointer;
+    background: #ff3300;
+    border: none;
+    overflow: none;
+    opacity: 0;
+}
+
+.task:hover .task-btn{
+    opacity: 1;
+}
+
+#group-end {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#end-text {
+    margin: 0px;
+}
+
+#end-btn {
+    color:var(--white-color);
+    padding: 2px 4px;
+    cursor: pointer;
+    background: blueviolet;
+    border: none;
+}
+
+#end-btn:hover {
+    background-color: #da1d1d;
+}
+
+#end-btn:checked #group-end{
+    opacity: 0;;
+}
